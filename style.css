@@ -1,0 +1,999 @@
+*{
+  margin:0;
+  padding:0;
+  font-family:Century Gothic;
+}
+.main{
+  max-width:1500px;
+  margin:auto;
+}
+.logo img{
+  float:left;
+  width:50px;
+  height:auto;
+  padding-left:10px;
+  padding-top:10px;
+}
+.topnav{
+  float:right;
+  list-style-type:none;
+  margin-top:25px;
+  display:inline-block;
+  margin-right:30px;
+}
+.top{
+  padding:5px 20px;
+  color:#000;
+  text-decoration:none;
+  transition:0.6s ease;
+}
+.top:hover{
+  color:rgb(187, 188, 191);
+}
+.imageindex img{
+  margin-top:2em;
+  width:100%;
+  height:auto;
+}
+@media screen and (max-width: 650px) {
+  /* comes into effect for screens less than or equal to 320 pixels */
+  .typewriter{
+    position:absolute;
+    top:40%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    text-align:center;
+  }
+  .typewriter h1 {
+    font-weight:1000px;
+    letter-spacing:0.2px;
+    font-size:30px;
+    color: #fff;
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .10em solid white; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .05em; /* Adjust as needed */
+    animation:
+      typing 3.0s steps(30, end),
+      blink-caret .5s step-end infinite;
+  }
+  .typewriter h3{
+    font-size:17px;
+    color: #fff;
+  }
+  .button {
+    background-color: #000;
+    border: none;
+    color: white;
+    padding: 9px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    position:absolute;
+    top:48%;
+    right:30%;
+   cursor: pointer;
+  }
+  .button:hover{
+    background-color:#fff;
+    color:#000;
+  }
+  .infostart{
+    position:absolute;
+    top:50%;
+    font-size:20px;
+    font-weight:bold;
+    margin:20px 20px 20px 20px;
+    text-align:center;
+  }
+  .indexcircle{
+    position:absolute;
+    top:70%;
+    left:30%;
+  }
+  .indexwho{
+    position:absolute;
+    top:175%;
+    width:60%;
+    left:15%;
+    border:10px solid rgb(234, 172, 79);
+    padding:10px 15px 15px 20px;
+
+  }
+  .infobanner{
+    position:absolute;
+    top:320%;
+    padding: 20px 20px 20px 20px;
+    background-image:linear-gradient(rgba(10,10,20,0.5),rgba(0,0,0,0.09)),url(5.jpg);
+    height:20%;
+    width:100%;
+  }
+  .infobanner p{
+    font-size:70px;
+    font-weight:bold;
+    color:#fff;
+    position:absolute;
+    left:10%;
+  }
+  .stats{
+    position:absolute;
+    top:350%;
+    left:20%;
+  }
+  .unique{
+    position:absolute;
+    top:450%;
+    left:10%;
+  }
+  .contacts{
+    position:absolute;
+    top:960%;
+    left:5%;
+    margin-bottom:50px;
+    font-size:20px;
+  }
+  .sfpic{
+    width:200px;
+    height:auto;
+    position:absolute;
+    top:570%;
+    left:35%;
+  }
+  .sponsors{
+    top:900%;
+    left:5%;
+    position:absolute;
+  }
+  .registerlocations{
+    width:100%;
+    position:absolute;
+    top:50%;
+    left:7%;
+
+  }
+  .containers{
+    background-color:rgb(144, 189, 237);
+    padding: 10px 10px 10px 10px;
+    width:300px;
+    height:200px;
+  }
+  .sfpic2{
+    width:200px;
+    height:auto;
+    position:absolute;
+    top:610%;
+    left:30%;
+    border-radius:3%;
+  }
+  .studentinfo{
+    position:absolute;
+    top:525%;
+    left:8%;
+    display:inline-block;
+    width:20%;
+  }
+  .studentinfo2{
+    position:absolute;
+    top:535%;
+    left:75%;
+    display:inline-block;
+    width:20%;
+  }
+  .quote2{
+    position:absolute;
+    top:535%;
+    left:35%;
+    width:30%;
+    background-color: rgb(237, 239, 237);
+    padding:40px 15px 40px 20px;
+    font-style:italic;
+    font-size:23px;
+  }
+  .testimonials{
+    position:absolute;
+    top:810%;
+    left:5%;
+  }
+
+}
+@media screen and (min-width: 650px) and (max-width: 1050px) {
+  .typewriter{
+    position:absolute;
+    top:40%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    text-align:center;
+  }
+  .typewriter h1 {
+    font-weight:1000px;
+    letter-spacing:0.2px;
+    font-size:60px;
+    color: #fff;
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .10em solid white; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .05em; /* Adjust as needed */
+    animation:
+      typing 3.0s steps(30, end),
+      blink-caret .5s step-end infinite;
+  }
+  .typewriter h3{
+    font-size:25px;
+    color: #fff;
+  }
+  .button {
+    background-color: #000;
+    border: none;
+    color: white;
+    padding: 9px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 25px;
+    position:absolute;
+    top:53%;
+    right:43%;
+   cursor: pointer;
+  }
+  .button:hover{
+    background-color:#fff;
+    color:#000;
+  }
+  .infostart{
+    position:absolute;
+    top:65%;
+    font-size:28px;
+    font-weight:bold;
+    margin:20px 20px 20px 20px;
+    text-align:center;
+  }
+  .indexcircle{
+    position:absolute;
+    top:100%;
+    padding-left:14px;
+    margin-right:18em;
+    width:100%;
+  }
+  .indexwho{
+    position:absolute;
+    top:155%;
+    width:60%;
+    left:15%;
+    border:10px solid rgb(234, 172, 79);
+    padding:10px 15px 15px 20px;
+
+  }
+  .infobanner{
+    position:absolute;
+    top:250%;
+    padding: 20px 20px 20px 20px;
+    background-image:linear-gradient(rgba(10,10,20,0.5),rgba(0,0,0,0.09)),url(5.jpg);
+    height:30%;
+    width:100%;
+  }
+  .infobanner p{
+    font-size:100px;
+    font-weight:bold;
+    color:#fff;
+    position:absolute;
+    left:20%;
+  }
+  .stats{
+    position:absolute;
+    top:290%;
+    width:100%;
+  }
+  .sponsors{
+    top:600%;
+    left:5%;
+    position:absolute;
+  }
+  .unique{
+    position:absolute;
+    top:340%;
+    left:10%;
+  }
+  .sfpic{
+    width:400px;
+    height:auto;
+    position:absolute;
+    top:430%;
+    left:30%;
+  }
+  .sfpic2{
+    width:400px;
+    height:auto;
+    position:absolute;
+    top:470%;
+    left:30%;
+    border-radius:3%;
+  }
+  .contacts{
+    position:absolute;
+    top:660%;
+    left:5%;
+    margin-bottom:50px;
+    font-size:20px;
+  }
+  .registerlocations{
+    width:100%;
+    position:absolute;
+    top:40%;
+    right:5%;
+  }
+
+  .containers{
+    background-color: rgb(144, 189, 237);
+    padding: 10px 10px 10px 10px;
+    width:200px;
+    height:300px;
+  }
+.teammem{
+  width:100%;
+  position:absolute;
+  top:30%;
+}
+.studentinfo{
+  position:absolute;
+  top:390%;
+  left:8%;
+  display:inline-block;
+  width:20%;
+}
+.studentinfo2{
+  position:absolute;
+  top:402%;
+  left:75%;
+  display:inline-block;
+  width:20%;
+}
+.quote2{
+  position:absolute;
+  top:403%;
+  left:35%;
+  width:30%;
+  background-color: rgb(237, 239, 237);
+  padding:40px 15px 40px 20px;
+  font-style:italic;
+  font-size:23px;
+}
+.testimonials{
+  position:absolute;
+  top:555%;
+}
+
+
+
+}
+@media screen and (min-width: 1050px) {
+  /* comes into effect for screens larger than or equal to 481 pixels */
+  .typewriter{
+    position:absolute;
+    top:40%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    text-align:center;
+  }
+  .typewriter h1 {
+    font-weight:1000px;
+    letter-spacing:0.2px;
+    font-size:127px;
+    color: #fff;
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .10em solid white; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .05em; /* Adjust as needed */
+    animation:
+      typing 3.0s steps(30, end),
+      blink-caret .5s step-end infinite;
+  }
+  .typewriter h3{
+    font-size:30px;
+    color: #fff;
+  }
+  .button {
+    background-color: #000;
+    border: none;
+    color: white;
+    padding: 9px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 35px;
+    position:absolute;
+    top:65%;
+    left:43%;
+   cursor: pointer;
+  }
+  .button:hover{
+    background-color:#fff;
+    color:#000;
+  }
+  .infostart{
+    position:absolute;
+    top:95%;
+    font-size:28px;
+    font-weight:bold;
+    margin:20px 20px 20px 20px;
+    text-align:center;
+  }
+  .indexcircle{
+    position:absolute;
+    top:115%;
+    width:100%;
+
+  }
+  .indexwho{
+    position:absolute;
+    top:155%;
+    width:60%;
+    left:15%;
+    border:10px solid rgb(234, 172, 79);
+    padding:10px 15px 15px 20px;
+
+  }
+  .infobanner{
+    position:absolute;
+    top:230%;
+    padding: 20px 20px 20px 20px;
+    background-image:linear-gradient(rgba(10,10,20,0.5),rgba(0,0,0,0.09)),url(5.jpg);
+    height:30%;
+    width:100%;
+
+  }
+  .infobanner p{
+    font-size:100px;
+    font-weight:bold;
+    color:#fff;
+    position:absolute;
+    left:30%;
+  }
+  .sponsors{
+    top:525%;
+    left:5%;
+    position:absolute;
+  }
+  .stats{
+    position:absolute;
+    top:270%;
+    width:100%;
+  }
+  .unique{
+    position:absolute;
+    top:305%;
+    left:4%;
+  }
+  .sfpic{
+    width:400px;
+    height:auto;
+    position:absolute;
+    top:385%;
+    left:35%;
+    border-radius:3%;
+  }
+  .sfpic2{
+    width:400px;
+    height:auto;
+    position:absolute;
+    top:420%;
+    left:35%;
+    border-radius:3%;
+  }
+  .contacts{
+    position:absolute;
+    top:562%;
+    left:5%;
+    margin-bottom:50px;
+    font-size:20px;
+  }
+  .containers{
+    background-color: rgb(144, 189, 237);
+    padding: 20px 20px 20px 20px;
+    width:280px;
+    height:200px;
+  }
+  .studentinfo{
+    position:absolute;
+    top:350%;
+    left:10%;
+    display:inline-block;
+    width:20%;
+  }
+  .studentinfo2{
+    position:absolute;
+    top:362%;
+    left:70%;
+    display:inline-block;
+    width:20%;
+  }
+  .quote2{
+    position:absolute;
+    top:363%;
+    left:35%;
+    width:30%;
+    background-color: rgb(237, 239, 237);
+    padding:40px 15px 40px 20px;
+    font-style:italic;
+    font-size:23px;
+  }
+  .testimonials{
+    position:absolute;
+    top:488%;
+  }
+
+
+
+
+}
+.numstat{
+  font-size:90px;
+  font-weight:bold;
+}
+.statinfoss{
+  font-size:30px;
+  font-weight:bold;
+  color:rgb(43, 26, 155);
+
+}
+
+.quotelabel{
+  padding-top:20px;
+  padding-bottom:20px;
+  font-size:30px;
+  font-weight:bold;
+  color:#000;
+  text-align:center;
+}
+.quote{
+  font-size:22px;
+  color:rgb(40, 68, 130);
+  padding: 4px 4px;
+}
+.quote1{
+  font-size:22px;
+  color:rgb(94, 91, 88);
+  padding:4px 4px;
+}
+.quotelabel1{
+  font-size:45px;
+  font-weight:bold;
+  color:rgb(30, 96, 11);
+  text-align:center;
+
+}
+
+
+.registerbuttons{
+  text-decoration:none;
+  font-size:25px;
+  color:rgb(88, 92, 94);
+  font-weight:bold;
+}
+
+.statinfos{
+  font-size:35px;
+  color:rgb(69, 136, 168);
+  text-align:center;
+}
+.statnum{
+  font-size:60px;
+  font-weight:bold;
+  text-align: center;
+  color:rgb(34, 46, 94);
+}
+.statnums{
+  padding-top:15px;
+  font-size:40px;
+  text-align:center;
+  font-weight:bold;
+  color:rgb(34, 46, 94);
+
+}
+.statistics{
+  padding-top:30px;
+}
+
+
+
+
+
+
+
+.unique p{
+padding-top:15px;
+  font-size:23px;
+}
+
+.statinfo{
+  font-size:30px;
+  font-weight:50px;
+  font-family:Verdana;
+  color:rgb(69, 108, 122);
+
+}
+
+
+.indexwho p{
+  font-size:22px;
+  padding-top:10px;
+  background-color:
+}
+.indexwho img{
+  width:200px;
+  height:auto;
+}
+
+
+
+
+.partners{
+  font-size:25px;
+  border-bottom:1px solid #000;
+}
+.sponsors img{
+  display:inline block;
+  width:500px;
+  height:auto;
+  margin-right:100px;
+  margin-top:20px;
+  margin-bottom:50px;
+}
+
+
+
+
+
+#subpage{
+  background-image:url(blue.png);
+  height:5em;
+  background-size:cover;
+  background-position:center;
+}
+.title{
+  position:absolute;
+  top:40%;
+  left:50%;
+  transform:translate(-50%,-50%);
+  text-align:center;
+}
+.title h1{
+  color:#fff;
+  font-size:107px;
+  font-weight:1000px;
+  letter-spacing:1px;
+}
+.title h3{
+  color:rgb(222, 232, 244);
+  font-size:35px;
+  font-weight:1000px;
+  letter-spacing:1px;
+}
+
+
+.aboutbg{
+  /*width:80em;*/
+  margin-left:20px;
+  margin-right:20px;
+  margin-top:20px;
+}
+.labels{
+  font-size:20px;
+  font-family:Lato;
+  color:rgb(47, 18, 61);
+  padding:2px 2px 2px 2px;
+}
+.labelsf{
+  font-size:40px;
+  font-family:Lato;
+  color:rgb(50, 40, 140);
+  padding:2px 2px 2px 2px;
+}
+.aboutbg img{
+  position:absolute;
+  width:auto;
+  right:7%;
+  height:400px;
+  margin-top:20px;
+  border:1px solid #000;
+}
+
+
+
+
+.info{
+  margin-top:10px;
+  font-size:20px;
+  color:#000;
+}
+.About{
+}
+.labelt{
+  font-size:45px;
+  font-family:Lato;
+  color:rgb(50, 40, 140);
+  padding:2px 2px 2px 2px;
+  text-align:center;
+  margin-top:20px;
+
+
+}
+/* Three columns side by side */
+.column {
+  float: right;
+  width: 28%;
+  margin-bottom: 16px;
+  margin-top:10px;
+  padding: 0 8px;
+  align-items: center;
+}
+
+/* Display the columns below each other instead of side by side on small screens */
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+.card img{
+  border-radius: 50%;
+}
+
+/* Some left and right padding inside the container */
+.container {
+  padding: 0 16px;
+}
+
+/* Clear floats */
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+  align-items: center;
+  text-align: center;
+}
+
+.title {
+  color: grey;
+}
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(124, 125, 127);
+  color: white;
+  text-align: center;
+}
+
+
+
+
+
+.faq{
+  padding: 20px 20px 20px 20px;
+  background-color: rgb(177, 203, 239);
+  margin-left:0px;
+}
+.aboutphotocap{
+  font-weight:bold;
+  font-size:20px;
+  font-style:italic;
+  margin-left:240px;
+
+}
+#aboutphoto{
+  width:600px;
+  height:auto;
+  margin-right:200px;
+}
+
+
+
+#less{
+  font-size:20px;
+}
+.firstpic{
+  width:100%;
+  height:auto;
+}
+.overlayc{
+  position:absolute;
+  top:130%;
+  right:6%;
+}
+.secondpic{
+  width:auto;
+  height:500px;
+  float:left;
+  position:absolute;
+  left:2%;
+  border-radius:5%;
+
+}
+.captioon{
+  position:absolute;
+  top:110%;
+  left:4%;
+}
+.thirdpic{
+  position:absolute;
+  float:right;
+  width:auto;
+  height:500px;
+  right:4%;
+  border-radius:5%;
+
+}
+.captiooon{
+  position:absolute;
+  top:110%;
+  right:6%;
+}
+
+
+.Pabox{
+  float:left;
+  background-color:rgb(192, 213, 247);
+  border:none;
+  padding:20px 20px 20px 20px;
+  margin:20px 20px 20px 20px;
+  margin-left: 10em;
+  width:320px;
+  height:210px;
+
+}
+.Denverbox{
+  float:left;
+  background-color:rgb(211, 199, 165);
+  border:none;
+  padding:20px 20px 20px 20px;
+  margin:20px 20px 20px 20px;
+  width:320px;
+  height:210px;
+}
+.Internationalbox{
+  float:left;
+  background-color:rgb(197, 242, 174);
+  border:none;
+  padding:20px 20px 20px 20px;
+  margin:20px 20px 20px 20px;
+  width:320px;
+  height:210px;
+}
+.SFbox{
+  float:left;
+  background-color:rgb(249, 155, 112);
+  border:none;
+  padding:20px 20px 20px 20px;
+  margin:20px 20px 20px 20px;
+  width:320px;
+  height:210px;
+}
+.Newlocbox{
+  float:left;
+  background-color:rgb(224, 202, 247);
+  border:none;
+  padding:20px 20px 20px 20px;
+  margin:20px 20px 20px 20px;
+  width:320px;
+  height:210px;
+}
+.boxlabel{
+  font-size: 25px;
+  font-weight: bold;
+  text-align:center;
+}
+.boxinfo{
+  font-size:18px;
+  text-align:center;
+}
+
+.btnbox{
+  margin-top:35px;
+  margin-left:70px;
+}
+
+.datesbox{
+  font-size:20px;
+  font-weight: bold;
+  text-align:center;
+  margin-top:5px;
+}
+
+.boxes{
+position: absolute;
+top:120%;
+}
+
+.boxess{
+  margin-top:30px;
+  margin-bottom:10px;
+}
+
+
+
+
+
+
+.anyone{
+  margin-top:10px;
+  font-size:70px;
+  text-align:center;
+  font-weight:bold;
+  color:rgb(7, 35, 79);
+}
+.faqhead{
+  font-weight:bold;
+  font-size:30px;
+  color:rgb(7, 35, 79);
+  text-align:center;
+  margin-top:30px;
+}
+.faqbody{
+  font-size:20px;
+  margin: 20px 20px 20px 20px;
+  text-align:center;
+
+}
+.topfaqteach{
+  font-size:50px;
+  font-weight:bold;
+  text-align:center;
+  margin-top:20px;
+}
+.eligibilitycriteria{
+  background-color:rgb(185, 209, 232);
+  margin-top:70px;
+  padding:10px 10px 10px 10px;
+  align-items: center;
+
+}
+.eclabel{
+  font-size:30px;
+  font-style:italic;
+  padding-bottom:10px;
+  text-align: center;
+}
+.criteria{
+  font-size:18px;
+  text-align: center;
+}
+.buttonboxa{
+  padding:10px 30px;
+  color:#fff;
+  text-decoration: none;
+  transition:0.6s ease;
+  font-size:30px;
+  background-color:rgb(7, 35, 79);
+  text-align:center;
+  margin-top:20px;
+}
+.btnboxa:hover{
+  background-color:rgb(141, 144, 147);
+  color:#000;
+  position:absolute;
+  right:30%;
+}
+
+
+
+
+
+
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: white }
+}
+#aboutinfopic{
+  width:250px;
+  height:auto;
+}
